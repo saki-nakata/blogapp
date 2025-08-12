@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
     def index
-       @title="indexページ"
+       @article = Article.first
     end
     def about
         @message="aboutページ"
