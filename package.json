@@ -1,4 +1,7 @@
 {
   "name": "app",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "sass": "^1.90.0"
+  }
 }
