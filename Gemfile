@@ -21,6 +21,8 @@ gem "importmap-rails"
 
 gem 'dartsass-rails'
 
+gem 'faker'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
