@@ -17,6 +17,12 @@ gem "stimulus-rails"
 
 gem "importmap-rails"
 
+#gem 'sassc-rails'
+
+gem 'dartsass-rails'
+
+gem 'faker'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
@@ -58,3 +64,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "sassc", "~> 2.4"
