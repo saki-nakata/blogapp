@@ -31,7 +31,7 @@ class ArticlesController < ApplicationController
             redirect_to article_path(@article), notice: "更新完了！"
         else
             flash.now[:error] = "更新に失敗"
-            render :edit
+            render :edit, status: :unprocessable_entity
         end
     end
 
