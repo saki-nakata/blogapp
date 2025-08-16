@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-    before_action :set_article, only: [:show, :edit, :update]
+    before_action :set_article, only: [ :show, :edit, :update ]
 
     def index
        @articles = Article.all
@@ -15,9 +15,9 @@ class ArticlesController < ApplicationController
     def create
         @article = Article.new(article_params)
         if @article.save
-            redirect_to article_path(@article), notice: "保存完了！"
+            redirect_to article_path(@article), notice: '保存完了！'
         else
-            flash.now[:error] = "保存に失敗"
+            flash.now[:error] = '保存に失敗'
             render :new
         end
     end
@@ -27,9 +27,9 @@ class ArticlesController < ApplicationController
 
     def update
         if @article.update(article_params)
-            redirect_to article_path(@article), notice: "更新完了！"
+            redirect_to article_path(@article), notice: '更新完了！'
         else
-            flash.now[:error] = "更新に失敗"
+            flash.now[:error] = '更新に失敗'
             render :edit, status: :unprocessable_entity
         end
     end
@@ -37,7 +37,7 @@ class ArticlesController < ApplicationController
     def destroy
         article = Article.find(params[:id])
         article.destroy!
-        redirect_to root_path, status: :see_other, notice: "削除に成功!"
+        redirect_to root_path, status: :see_other, notice: '削除に成功!'
     end
 
     private def article_params
@@ -47,5 +47,4 @@ class ArticlesController < ApplicationController
     private def set_article
         @article = Article.find(params[:id])
     end
-
 end
