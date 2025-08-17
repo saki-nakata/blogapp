@@ -10,9 +10,29 @@
 #
 
 class Article < ApplicationRecord
-  validates :title, presence: true
-  validates :content, presence: true
+  validates :title, length: {minimum: 3, maximum: 50}
+  validates :title, format: {with: /\A(?!\@)/}
+
+  validates :content, length: {minimum: 10}
+  validates :content, uniqueness: true
+
+  validate :title_cannot_include
+  validate :validate_title_and_content_length
+
   def display_created_at
     I18n.l(self.created_at, format: :long)
+  end
+
+  private def validate_title_and_content_length
+    length_count = self.title.length + self.content.length
+    if length_count < 80
+      errors.add(:content, "80文字以上にしてください！")
+    end
+  end
+
+  private def title_cannot_include
+    if title.include?("*")
+      errors.add(:title, "*を含めることはできません。")
+    end
   end
 end

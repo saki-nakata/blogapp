@@ -1,0 +1,62 @@
+=> 
+[[32m#<Article:0x0000793840a9be00[0m
+  id: [34m[1m17[0m,
+  title: [31m[1m"[0m[31mnew[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31medit[0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-15 10:11:08.672660000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-15 10:11:08.672660000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Article:0x0000793840a9bcc0[0m
+  id: [34m[1m16[0m,
+  title: [31m[1m"[0m[31mnew[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mtest[0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-15 10:10:45.959753000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-15 10:10:45.959753000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Article:0x0000793840a9ba40[0m
+  id: [34m[1m15[0m,
+  title: [31m[1m"[0m[31mtest[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mtest[0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-14 10:08:14.231565000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-14 10:08:14.231565000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Article:0x0000793840a9b900[0m
+  id: [34m[1m13[0m,
+  title: [31m[1m"[0m[31mデイトラ[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mformからの更新[0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-14 00:38:06.955391000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-14 00:38:06.955391000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Article:0x0000793840a9b7c0[0m
+  id: [34m[1m12[0m,
+  title: [31m[1m"[0m[31mQuis fuga voluptatem aut suscipit.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mEius ut ab rerum sit dicta quia quos reprehenderit...[0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-12 21:52:44.840743000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-12 21:52:44.840743000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Article:0x0000793840a9b680[0m
+  id: [34m[1m11[0m,
+  title: [31m[1m"[0m[31mQuaerat fugiat deleniti et saepe.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mPerspiciatis beatae enim enim in ea commodi deleni...[0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-12 21:52:44.837396000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-12 21:52:44.837396000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Article:0x0000793840a9b540[0m
+  id: [34m[1m10[0m,
+  title: [31m[1m"[0m[31mVeniam non ratione non voluptatem.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mPraesentium id et est voluptas sit tempore atque i...[0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-12 21:52:44.833328000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-12 21:52:44.833328000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Article:0x0000793840a9b400[0m
+  id: [34m[1m9[0m,
+  title: [31m[1m"[0m[31mFugiat tempore sequi amet iste.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mAt laudantium sit rerum dolorem ut aut dolore nesc...[0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-12 21:52:44.830134000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-12 21:52:44.830134000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Article:0x0000793840a9b2c0[0m
+  id: [34m[1m8[0m,
+  title: [31m[1m"[0m[31mAnimi libero deleniti ut assumenda.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mEt odit qui magnam eveniet dolorem inventore totam...[0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-12 21:52:44.826934000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-12 21:52:44.826934000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Article:0x0000793840a9b180[0m
+  id: [34m[1m7[0m,
+  title: [31m[1m"[0m[31mNatus accusantium aliquam assumenda unde.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mDicta quo corrupti soluta id vero inventore dolore...[0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-12 21:52:44.823506000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-12 21:52:44.823506000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [31m[1m"[0m[31m...[0m[31m[1m"[0m]
