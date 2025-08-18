@@ -30,6 +30,8 @@ gem 'better_errors'
 
 gem 'binding_of_caller'
 
+gem 'devise'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
 # Use Redis adapter to run Action Cable in production
