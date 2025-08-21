@@ -1,4 +1,4 @@
-= link_to article_path(id: article.id) do
+= link_to article_path(article), data: { turbo: false } do
   .card
     .card_image
       = image_tag 'eyecatch1.png'
@@ -11,5 +11,5 @@
       .card_detail
         = image_tag 'default-avatar.png'
         %div
-          %p cohki0305
+          %p= article.user.get_name
           %p= article.display_created_at
