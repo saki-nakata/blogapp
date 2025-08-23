@@ -16,6 +16,7 @@
 
 
 
+
 class Article < ApplicationRecord
   validates :title, length: { minimum: 3, maximum: 50 }
   validates :title, format: { with: /\A(?!\@)/ }
@@ -27,6 +28,8 @@ class Article < ApplicationRecord
   validate :validate_title_and_content_length
 
   belongs_to :user
+
+  has_many :comments, dependent: :destroy
 
   def display_created_at
     I18n.l(self.created_at, format: :long)
