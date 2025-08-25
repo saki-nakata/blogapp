@@ -13,6 +13,7 @@
 #  index_comments_on_article_id  (article_id)
 #
 
+
 require "test_helper"
 
 class CommentTest < ActiveSupport::TestCase
