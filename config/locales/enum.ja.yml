@@ -1,0 +1,6 @@
+ja:
+ enum:
+  genders:
+    men: "男性"
+    women: "女性"
+    other: "その他"
