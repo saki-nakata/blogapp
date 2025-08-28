@@ -44,7 +44,7 @@ class ArticlesController < ApplicationController
     end
 
     private def article_params
-        params.require(:article).permit(:title, :content)
+        params.require(:article).permit(:title, :content, :thumbnail)
     end
 
     private def set_current_user_articles

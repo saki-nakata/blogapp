@@ -16,6 +16,8 @@
 
 
 class Article < ApplicationRecord
+  has_one_attached :thumbnail
+
   validates :title, length: { minimum: 3, maximum: 50 }
   validates :title, format: { with: /\A(?!\@)/ }
 
@@ -28,6 +30,7 @@ class Article < ApplicationRecord
   belongs_to :user
 
   has_many :comments, dependent: :destroy
+  has_many :likes, dependent: :destroy
 
   def display_created_at
     I18n.l(self.created_at, format: :long)
@@ -35,6 +38,10 @@ class Article < ApplicationRecord
 
   def user_name
     user.get_name
+  end
+
+  def like_count
+    likes.count
   end
 
   private def validate_title_and_content_length
