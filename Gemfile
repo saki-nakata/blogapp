@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 8.0.2'
+gem 'pg', '>= 0.18', '< 2.0'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 # Use sqlite3 as the database for Active Record
@@ -31,6 +32,8 @@ gem 'better_errors'
 gem 'binding_of_caller'
 
 gem 'devise'
+
+gem 'aws-sdk-s3', require: false
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
@@ -65,6 +68,9 @@ group :development, :test do
   gem 'pry-byebug'
 
   gem 'rubocop-rails'
+
+  gem 'dotenv-rails'
+
 end
 
 group :development do
