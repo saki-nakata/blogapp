@@ -24,5 +24,12 @@ module Blogapp
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
     config.i18n.default_locale = :ja
+
+    Bundler.require(*Rails.groups)
+
+    if ['development', 'test'].include? ENV['RAILS_ENV'] && defined?(Dotenv)
+      Dotenv::Railtie.load
+    end
+
   end
 end
